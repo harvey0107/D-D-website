@@ -63,7 +63,7 @@ a:focus {
 .back-to-top {
     position: fixed;
     display: none;
-    background: #fbaf32;
+    background: #071b34;
     width: 44px;
     height: 44px;
     text-align: center;
@@ -82,7 +82,7 @@ a:focus {
 }
 
 .back-to-top:hover {
-    background: #719a0a;
+    background: #e9d0b1;
 }
 
 [class^="flaticon-"]:before, [class*=" flaticon-"]:before,
@@ -124,7 +124,7 @@ a:focus {
 }
 
 .navbar .navbar-brand:hover {
-    color: #fbaf32;
+    color: #e9d0b1;
 }
 
 .navbar .navbar-brand:hover span {
@@ -159,7 +159,7 @@ a:focus {
     }
     
     .navbar .navbar-brand {
-        color:  #676767;
+        color:  #e9d0b1;
     }
     
     .navbar.nav-sticky .navbar-brand {
@@ -177,12 +177,12 @@ a:focus {
     
     .navbar-light.nav-sticky .navbar-nav .nav-link,
     .navbar-light.nav-sticky .navbar-nav .nav-link:focus {
-        color: #ffffff;
+        color: #e9d0b1;
     }
 
     .navbar-light .navbar-nav .nav-link:hover,
     .navbar-light .navbar-nav .nav-link.active {
-        color: #e9d0b1;
+        color: white;
     }
     
     .navbar-light.nav-sticky .navbar-nav .nav-link:hover,
@@ -224,10 +224,11 @@ a:focus {
     height: 100vh;
     min-height: 400px;
     background: #ffffff;
+    max-width: 100%;
 }
 
 .carousel .container-fluid {
-    padding: 0;
+    max-width: 100vw;
 }
 
 .carousel .carousel-item {
@@ -369,18 +370,85 @@ a:focus {
 /*******************************/
 .page-header {
     position: relative;
-    margin-bottom: 45px;
-    padding: 150px 0 90px 0;
+    margin-bottom: 90px;
+    padding: 200px 0 160px 0;
     text-align: center;
-    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/page-header.jpg);
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/d&dbg6.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
+.page-header-colored {
+    position: relative;
+    margin-bottom: 90px;
+    padding: 200px 0 160px 0;
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/coloreddiamonds/colored1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.page-header-bracelets {
+    position: relative;
+    margin-bottom: 90px;
+    padding: 200px 0 160px 0;
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/d&dbg3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.page-header-earrings {
+    position: relative;
+    margin-bottom: 90px;
+    padding: 200px 0 160px 0;
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/earrings/1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.page-header-necks {
+    position: relative;
+    margin-bottom: 90px;
+    padding: 200px 0 160px 0;
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/d&dbg2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.page-header-watches {
+    position: relative;
+    margin-bottom: 90px;
+    padding: 200px 0 160px 0;
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/watches/watches1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.page-header-contacts {
+    position: relative;
+    margin-bottom: 90px;
+    padding: 200px 0 160px 0;
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/d&dbg9.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
 .page-header h2 {
     position: relative;
-    color: #fbaf32;
+    color:#e9d0b1 ;
     font-size: 60px;
     font-weight: 700;
 }
@@ -1760,7 +1828,7 @@ a:focus {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #fbaf32;
+    background: #e9d0b1;
     border-radius: 50px;
 }
 
@@ -1780,7 +1848,7 @@ a:focus {
 .contact .contact-text h3 {
     font-size: 18px;
     font-weight: 700;
-    color: #719a0a;
+    color: #071b34;
 }
 
 .contact .contact-text p {
@@ -1965,4 +2033,22 @@ a:focus {
 
 .footer .copyright p a:hover {
     color: #e9d0b1;
+}
+
+.zoom {
+    cursor: -webkit-zoom-in;
+    transition: transform .9s;
+    -webkit-transition: transform .9s;
+    -moz-transition: transform .9s;
+    -ms-transition: transform .9s;
+    -o-transition: transform .9s;
+}
+  
+  .zoom:hover {
+    -ms-transform: scale(1.6);
+    /*IE9*/-webkit-transform: scale(1.6);
+    /*Safari3-8*/transform: scale(1.6);
+    -webkit-transform: scale(1.6);
+    -moz-transform: scale(1.6);
+    -o-transform: scale(1.6);
 }
